@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+caches/
+daemon/
+native/
+*.lock
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local properties
+local.properties
+
+# Temporary files
+*.tmp

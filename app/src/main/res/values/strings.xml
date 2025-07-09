@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Bitchat</string>
+    
+    <!-- Navigation -->
+    <string name="nav_chat">Chat</string>
+    <string name="nav_peers">Peers</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Chat -->
+    <string name="chat_hint">Type a message or command...</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_join_channel">Join Channel</string>
+    <string name="chat_private_message">Private Message</string>
+    
+    <!-- Commands -->
+    <string name="command_join">/j</string>
+    <string name="command_message">/m</string>
+    <string name="command_who">/w</string>
+    <string name="command_channels">/channels</string>
+    <string name="command_block">/block</string>
+    <string name="command_unblock">/unblock</string>
+    <string name="command_clear">/clear</string>
+    <string name="command_pass">/pass</string>
+    <string name="command_transfer">/transfer</string>
+    <string name="command_save">/save</string>
+    
+    <!-- Messages -->
+    <string name="message_connected">Connected to mesh network</string>
+    <string name="message_disconnected">Disconnected from mesh network</string>
+    <string name="message_peer_joined">%1$s joined the network</string>
+    <string name="message_peer_left">%1$s left the network</string>
+    <string name="message_channel_joined">Joined channel #%1$s</string>
+    <string name="message_channel_left">Left channel #%1$s</string>
+    <string name="message_private_from">Private message from %1$s</string>
+    <string name="message_blocked">Blocked %1$s</string>
+    <string name="message_unblocked">Unblocked %1$s</string>
+    <string name="message_cleared">Chat cleared</string>
+    
+    <!-- Permissions -->
+    <string name="permission_bluetooth_title">Bluetooth Permission Required</string>
+    <string name="permission_bluetooth_message">Bitchat needs Bluetooth permission to connect to nearby devices.</string>
+    <string name="permission_location_title">Location Permission Required</string>
+    <string name="permission_location_message">Location permission is required for Bluetooth scanning on Android.</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_deny">Deny</string>
+    
+    <!-- Settings -->
+    <string name="settings_nickname">Nickname</string>
+    <string name="settings_nickname_hint">Enter your nickname</string>
+    <string name="settings_bluetooth">Bluetooth</string>
+    <string name="settings_bluetooth_enable">Enable Bluetooth</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_emergency_wipe">Emergency Wipe</string>
+    <string name="settings_emergency_wipe_message">This will permanently delete all data. This action cannot be undone.</string>
+    <string name="settings_wipe_confirm">Wipe All Data</string>
+    <string name="settings_wipe_cancel">Cancel</string>
+    
+    <!-- Errors -->
+    <string name="error_bluetooth_not_supported">Bluetooth LE is not supported on this device</string>
+    <string name="error_bluetooth_disabled">Please enable Bluetooth to use Bitchat</string>
+    <string name="error_location_permission">Location permission is required for Bluetooth scanning</string>
+    <string name="error_encryption_failed">Encryption failed</string>
+    <string name="error_decryption_failed">Decryption failed</string>
+    <string name="error_invalid_message">Invalid message format</string>
+    <string name="error_network_unavailable">Network unavailable</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Bitchat Messages</string>
+    <string name="notification_channel_description">Notifications for new messages</string>
+    <string name="notification_new_message">New message from %1$s</string>
+    <string name="notification_private_message">Private message from %1$s</string>
+    
+    <!-- Actions -->
+    <string name="action_retry">Retry</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    
+    <!-- Status -->
+    <string name="status_connecting">Connecting...</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_scanning">Scanning for peers...</string>
+    <string name="status_peers_found">%1$d peers found</string>
+    <string name="status_no_peers">No peers found</string>
+</resources> 
